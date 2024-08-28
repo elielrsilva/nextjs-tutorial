@@ -1,3 +1,5 @@
+'use client';
+
 import Link from '@/node_modules/next/link';
 import { usePathname } from 'next/navigation';
 import {
@@ -5,7 +7,7 @@ import {
   HomeIcon,
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
-import { clsx } from '@/node_modules/clsx/clsx';
+import { clsx } from 'clsx';
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
